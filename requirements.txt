@@ -4,3 +4,4 @@ babel == 2.16.0
 matplotlib == 3.7.2
 seaborn == 0.13.2
 urllib3 == 1.26.15
+streamlit == 1.41.1
