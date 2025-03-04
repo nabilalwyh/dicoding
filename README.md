@@ -12,7 +12,6 @@ projek-data-analys/
 │   ├── __pycache__/
 │   ├── all_df.csv
 │   ├── dashboard.py
-│   ├── helper_func.py
 ├── data/
 │   ├── all_df.csv
 │   ├── customers_dataset.csv
@@ -38,29 +37,21 @@ projek-data-analys/
 2. **Instal dependensi**
 
    ```sh
+   pip install streamlit
    pip install -r requirements.txt
    ```
 
 3. **Jalankan program**
    ```sh
-   python -m dashboard.dashboard
+   streamlit run dashboard/dashboard.py
    ```
 
 ## 📊 Dataset
 
-| File                         | Deskripsi                       |
-| ---------------------------- | ------------------------------- |
-| `all_df.csv`                 | Data gabungan dari semua sumber |
-| `customers_dataset.csv`      | Informasi pelanggan             |
-| `geolocation.csv`            | Data geolokasi                  |
-| `order_items_dataset.csv`    | Detail item dalam pesanan       |
-| `order_payments_dataset.csv` | Informasi pembayaran            |
-| `order_reviews_dataset.csv`  | Ulasan pelanggan                |
-| `orders_dataset.csv`         | Data pesanan                    |
-| `product_category_name.csv`  | Kategori produk                 |
-| `products_dataset.csv`       | Informasi produk                |
-| `sales_df.csv`               | Data penjualan                  |
-| `sellers_dataset.csv`        | Informasi penjual               |
+| File              | Deskripsi                       |
+| ----------------- | ------------------------------- |
+| `all_df.csv`      | Data gabungan dari semua sumber |
+| `geolocation.csv` | Data geolokasi                  |
 
 ## ⚠️ Catatan Penting
 
